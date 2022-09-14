@@ -161,7 +161,13 @@ button {
     rgba(255, 255, 255, 0.05) 99.85%
   );
   backdrop-filter: blur(5px);
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+}
+.card h3{
+  margin: 12px 0;
+}
+.card p{
+  margin: 12px 0;
 }
 
 #modal-background {
@@ -187,5 +193,9 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+  #question{
+    height: 200px;
+    padding: 0 15px;
   }
 }
