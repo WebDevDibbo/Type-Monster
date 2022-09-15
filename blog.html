@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -38,15 +43,23 @@
                 <p>4.Variables declared with the var keyword can NOT have block scope.</p>
              </div>
              <div class="global">
+                <h3>Global Scope</h3>
                 <p>1.Variables declared Globally (outside any function) have Global Scope.</p>
-                <p>Global variables can be accessed from anywhere in a JavaScript program.</p>
-                <p>Variables declared with var, let and const are quite similar when declared outside a block.</p>
+                <p>2.Global variables can be accessed from anywhere in a JavaScript program.</p>
+                <p>3.Variables declared with var, let and const are quite similar when declared outside a block.</p>
              </div>
            </div>
            <div class="eventLoop">
             <h2>How does the javascript event loop work?</h2>
             <p>The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same process.</p>
            </div>
+           <div class="undefined">
+           <h3>How to get undefined in javascript?</h3>
+           <p>1.Undefined is also a primitive value in JavaScript. A variable or an object has an undefined value when no value is assigned before using it. So you can say that undefined means lack of value or unknown value</p>
+           <p>2.An undefined variable or anything without a value will always return "undefined" in JavaScript.</p>
+           <p>2.When a variable is declared or initialized but no value is assigned to it, JavaScript automatically displays "undefined".</p>
+           <p>3.when you try accessing values in, for example, an array or object that doesn't exist, it will throw undefined.</p>
+        </div>
         </section>
     </main>
 </body>
