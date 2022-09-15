@@ -9,20 +9,40 @@
 <body>
     <main>
         <section>
-            <h2>Difference between localStorage and sessionStorage</h2>
-           <div>
-            <h3>localStorage</h3>
-            <p>1.The storage capacity of local storage is 5MB/10MB</p>
-            <p>2.As it is not session-based, it must be deleted via javascript or manually</p>
-            <p>3.The client  can only read local storage</p>
-            <p>4.There is no transfer of data to the server</p>
+           <div class="storage">
+            <h2>Show the difference between localStorage and sessionStorage</h2>
+            <div class="localStore">
+             <h3>localStorage</h3>
+             <p>1.The storage capacity of local storage is 5MB/10MB</p>
+             <p>2.As it is not session-based, it must be deleted via javascript or manually</p>
+             <p>3.The client  can only read local storage</p>
+             <p>4.There is no transfer of data to the server</p>
+            </div>
+
+            <div class="sessionstore">
+            <h3>SessionStorage</h3>
+           <p>1.The storage capacity of session storage is 5MB</p>
+           <p>2.It's session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed</p>
+           <p>3.The client can only read local storage</p>
+           <p>4.There is no transfer of data to the server</p>
+         </div>
            </div>
-           <div><h3>SessionStorage</h3>
-          <p>1.The storage capacity of session storage is 5MB</p>
-          <p>2.It's session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed</p>
-          <p>3.The client can only read local storage</p>
-          <p>4.There is no transfer of data to the server</p>
-        </div>
+
+           <div class="scope">
+             <h2>Show the difference between global scope and block scope</h2>
+             <div class="block">
+                <h3>Block Scope</h3>
+                <p>1.ES6 introduced two important new JavaScript keywords: let and const.</p>
+                <p>2.These two keywords provide Block Scope in JavaScript.</p>
+                <p>Variables declared inside a { } block cannot be accessed from outside the block:</p>
+                <p>4.Variables declared with the var keyword can NOT have block scope.</p>
+             </div>
+             <div class="global">
+                <p>1.Variables declared Globally (outside any function) have Global Scope.</p>
+                <p>Global variables can be accessed from anywhere in a JavaScript program.</p>
+                <p>Variables declared with var, let and const are quite similar when declared outside a block.</p>
+             </div>
+           </div>
         </section>
     </main>
 </body>
